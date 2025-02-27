@@ -1,0 +1,42 @@
+/* CSS Reset dan Font */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+/* menghilangkan Konten Secara Horizontal */
+body{
+    overflow-x: hidden;
+}
+
+/* Mengatur Seluruh Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #212523;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+/* Mengatur Display Side bar Kanan */
+nav .right-side{
+    display: flex;
+}
+
+/* Mengatur Side Bar Kiri dengan Spesifik */
+nav .left-side a h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Spesifik Mengatur Side Bar Kanan */
+nav .right-side .nav-link-wrapper a{
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+}
