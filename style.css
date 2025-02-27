@@ -57,13 +57,44 @@ nav .right-side .nav-link-wrapper a{
     width: 270px;
 }
 
-/* Memperbesar Tulisan pada tag h1 */
+/* Memperbesar Tulisan tag h1 pada class container-home*/
 .container-home h1{
     font-size: 40px;
     margin-top: 10px;
 }
 
-/* Memperbesar Tulisan pada tag p */
+/* Memperbesar Tulisan tag p pada class container-home*/
 .container-home p{
     font-size: 20px;
+}
+
+/* Mengatur Menu About */
+.container-about{
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Mengatur Garis Pemisah */
+hr.split{
+    width: 300px;
+    height: 2px;
+    background: black;
+    margin: 10px 0px;
+}
+
+/* Mengatur class text ke tengah dan membuat menjadi colum */
+.container-about .text{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/* Mengatur tulisan tag p pada class container-about */
+.container-about .text p{
+    width: 500px;
+    margin: 0px 40px;
+    font-size: 18px;
 }
