@@ -40,3 +40,30 @@ nav .right-side .nav-link-wrapper a{
     padding: 20px 30px;
     font-size: 18px;
 }
+
+/* Mengatur Container Menu Home */
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* agar home berada ditengah*/
+    background: #eaeaea;
+    padding: 95px 0px 25px 0px;
+}
+
+/* Mengatur agar gambar pada home jadi bulat dan lebih kecil */
+.container-home img{
+    border-radius: 50%;
+    height: 253px;
+    width: 270px;
+}
+
+/* Memperbesar Tulisan pada tag h1 */
+.container-home h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* Memperbesar Tulisan pada tag p */
+.container-home p{
+    font-size: 20px;
+}
