@@ -169,7 +169,7 @@ hr.split{
     padding: 5px 10px;
 }
 
-
+/* Mengatur button */
 .container-contact form button{
     width: 80px;
     background: #337ab7;
@@ -179,4 +179,12 @@ hr.split{
     border: none;
     cursor: pointer;
     margin-top: 10px;
+}
+
+/* Mengatur footer/copyright */
+footer{
+    background: #343A40;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
