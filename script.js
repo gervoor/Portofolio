@@ -1,3 +1,4 @@
+// Agar tulisan "Muhammad Rahman" bisa bergerak
 let i = 0;
 let tulisan = "Muhammad Rahman";
 let kecepatan = 50; //satuan milisecond
