@@ -50,6 +50,12 @@ nav .right-side .nav-link-wrapper a{
     padding: 95px 0px 25px 0px;
 }
 
+/* Memperbesar tulisan yang bisa bergerak */
+.container-home #lokasiTulisan{
+    font-size: 45px;
+    font-weight: bold;
+}
+
 /* Mengatur agar gambar pada home jadi bulat dan lebih kecil */
 .container-home img{
     border-radius: 50%;
